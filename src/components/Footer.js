@@ -6,7 +6,7 @@ function Footer() {
 
     return (
         <footer>
-            <div className='px-5 py-10 text-white bg-gradient-to-t from-black to-slate-900 '>
+            <div className='px-5 py-10 text-white bg-gradient-to-t from-black to-slate-900 z-40'>
                 <div className='flex flex-col md:flex-row items-start justify-between w-full gap-y-10 max-w-7xl mx-auto py-4'>
                     <div className="text-3xl font-semibold text-white flex-shrink-0 cursor-pointer">
                         <Link href={"/"}>Love Alarm 2.0</Link>

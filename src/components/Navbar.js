@@ -21,10 +21,10 @@ function Navbar() {
                         <Link href={"/"}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/"}>About</Link>
+                        <Link href={"/how-it-works"}>How it works</Link>
                     </li>
                     <li>
-                        <Link href={"/"}>Our Story</Link>
+                        <Link href={"/our-story"}>Our Story</Link>
                     </li>
                     <li>
                         <Link href={"/contact-us"}>Contact Us</Link>

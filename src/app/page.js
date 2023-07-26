@@ -111,8 +111,6 @@ export default function Home() {
                   </button>
                 </Link>
               </div>
-              <div className='sm:flex items-center gap-4 max-w-md mx-auto lg:mx-0 mt-4 lg:mt-2'>
-              </div>
             </div>
             <div className='max-w-lg w-full h-[600px] rounded-2xl overflow-hidden flex-grow relative'>
               <Image placeholder="blur" blurDataURL={Two.blurDataURL} src={Two.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to manage alarm" fill={true} />
