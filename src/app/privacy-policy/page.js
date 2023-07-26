@@ -1,4 +1,5 @@
 import { privacyPolicy } from '@/utils'
+import React from 'react'
 
 export const metadata = {
     title: 'Love 2.0 | Privacy Policy',
@@ -21,11 +22,13 @@ function privacy_policy() {
                     <h1 className={`text-gray-600 text-base text-justify`}>Love Alarm 2.0 puts emphasis on personal information of customers, and observes relevant laws including Act on Promotion of Information and Communication Network Utilization and Information Protection and guidelines enacted by relevant agencies. The Company, through the personal information handling policies, informs customers of for what purpose and how personal information provided by customers is used, and the actions taken by the Company for personal information protection.</h1>
                     {
                         Object.keys(privacyPolicy).map((item, i) => (
-                            <div key={item} className={`py-5`}>
-                                <h1 className={`text-rose-500 text-xl font-medium`}>{privacyPolicy[item].title}</h1>
-                                {privacyPolicy[item].description ? <p className={`text-gray-800 text-base text-justify my-2`}>{privacyPolicy[item].description}</p> : <></>}
-                                {privacyPolicy[item].points.map((txt, idx) => <p key={idx} className={`text-gray-700 text-base text-justify mt-1`}>• {txt}</p>)}
-                            </div>
+                            <React.Fragment key={item}>
+                                <div className={`py-5`}>
+                                    <h1 className={`text-rose-500 text-xl font-medium`}>{privacyPolicy[item].title}</h1>
+                                    {privacyPolicy[item].description ? <p className={`text-gray-800 text-base text-justify my-2`}>{privacyPolicy[item].description}</p> : <></>}
+                                    {privacyPolicy[item].points.map((txt, idx) => <p key={idx} className={`text-gray-700 text-base text-justify mt-1`}>• {txt}</p>)}
+                                </div>
+                            </React.Fragment>
                         ))
                     }
                 </div>
