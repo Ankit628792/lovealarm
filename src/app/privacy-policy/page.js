@@ -22,8 +22,8 @@ function privacy_policy() {
                     {
                         Object.keys(privacyPolicy).map((item, i) => (
                             <div key={item} className={`py-5`}>
-                                <h1 key={item}  className={`text-rose-500 text-xl font-medium`}>{privacyPolicy[item].title}</h1>
-                                {privacyPolicy[item].description ? <p key={item}  className={`text-gray-800 text-base text-justify my-2`}>{privacyPolicy[item].description}</p> : <></>}
+                                <h1 className={`text-rose-500 text-xl font-medium`}>{privacyPolicy[item].title}</h1>
+                                {privacyPolicy[item].description ? <p className={`text-gray-800 text-base text-justify my-2`}>{privacyPolicy[item].description}</p> : <></>}
                                 {privacyPolicy[item].points.map((txt, idx) => <p key={idx} className={`text-gray-700 text-base text-justify mt-1`}>• {txt}</p>)}
                             </div>
                         ))
