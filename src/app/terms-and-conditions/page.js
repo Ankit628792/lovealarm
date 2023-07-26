@@ -1,4 +1,3 @@
-import { privacyPolicy } from '@/utils'
 import React from 'react'
 
 export const metadata = {
@@ -15,7 +14,7 @@ function tnc() {
 
                     <h1 className={`text-gray-800 text-justify my-3`}>Welcome to Love Alarm 2.0!</h1>
                     <h1 className={`text-gray-800 text-base text-justify my-3`}>By accessing this application we assume you accept these terms and conditions. Do not continue to use Love Alarm 2.0 if you do not agree to take all of the terms and conditions stated on this page.</h1>
-                    <h2 className={`text-gray-800 text-base text-justify my-3`}>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to you, the person log on this application and compliant to the Company's terms and conditions. &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;, &quot;Our&quot; and &quot;Us&quot;, refers to our Company. &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of in. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</h2>
+                    <h2 className={`text-gray-800 text-base text-justify my-3`}>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to you, the person log on this application and compliant to the Company&apos;s terms and conditions. &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;, &quot;Our&quot; and &quot;Us&quot;, refers to our Company. &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&apos;s needs in respect of provision of the Company&apos;s stated services, in accordance with and subject to, prevailing law of in. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</h2>
 
                     <div className={`py-5`}>
                         <h1 className={`text-rose-500 text-xl font-medium`}>User Information</h1>
@@ -60,7 +59,7 @@ function tnc() {
                     </div>
                     <div className={`py-5`}>
                         <h1 className={`text-rose-500 text-xl font-medium`}>Reservation of Rights</h1>
-                        <h2 className={`text-gray-800 text-base text-justify my-3`}>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</h2>
+                        <h2 className={`text-gray-800 text-base text-justify my-3`}>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it&apos;s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</h2>
                     </div>
                     <div className={`py-5`}>
                         <h1 className={`text-rose-500 text-xl font-medium`}>Disclaimer</h1>
