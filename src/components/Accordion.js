@@ -1,8 +1,5 @@
 'use client'
 import { useState } from 'react'
-// import { motion } from 'framer-motion'
-// import { fadeOut, pageTransition } from '../util'
-
 
 function Accordion({ title, content, desc }) {
     const [isActive, setIsActive] = useState(false)

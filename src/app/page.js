@@ -10,11 +10,7 @@ import Three from '../assets/three.png'
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
 import Features from "@/components/Features";
-
-export const metadata = {
-  title: 'Love 2.0 | Home',
-  description: 'Love Alarm is an application that lets the user know if someone who loves them is present within a 10m radius. It has to ring if you like someone in the world we live in now.'
-}
+import Head from "next/head";
 
 const faq = [
   {
@@ -44,6 +40,11 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Love 2.0 | Home</title>
+        <meta name="description" content="Love Alarm is an application that lets the user know if someone who loves them is present within a 10m radius. It has to ring if you like someone in the world we live in now." />
+        <meta name="keywords" content="love alarm, love alarm 2.0, love , alarm , love 2.0" />
+      </Head>
       <main className='relative flex-grow min-h-screen'>
         <ScrollToTop />
 
