@@ -4,12 +4,17 @@ import Three from '../../assets/three.png'
 import Image from 'next/image'
 import Head from 'next/head'
 
+import Nearby from '../../assets/nearby.png'
+import Others from '../../assets/others.png'
+import Yours from '../../assets/yours.png'
+import Chat from '../../assets/chat.png'
+
 export const metadata = {
     metadataBase: new URL(process.env.host),
     title: 'Love 2.0 | How it works for Love Alarm 2.0',
     author: 'ankit628792',
     description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you need',
-    openGraph:{
+    openGraph: {
         title: 'Love Alarm 2.0 | How it works for Love Alarm 2.0',
         description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you need',
         url: process.env.host + '/how-it-works',
@@ -43,8 +48,8 @@ function page() {
                                 <strong>Step4: </strong>Next time, where you come in the radius of 10m of that user, the alarm rings
                             </p>
                         </div>
-                        <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="trial features" fill={true} />
+                        <div className='max-w-lg w-full h-[600px] rounded-2xl overflow-hidden flex-grow relative'>
+                            <Image placeholder="blur" blurDataURL={Nearby.blurDataURL} src={Nearby.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to ring others alarm" fill={true} />
                         </div>
                     </div>
                 </section>
@@ -62,8 +67,8 @@ function page() {
                                 <strong>Step3: </strong>Tap remove, It won&apos;t ring until you don&apos;t want again, you can start ringing again from nearby users screen
                             </p>
                         </div>
-                        <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Two.blurDataURL} src={Two.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to manage alarm" fill={true} />
+                        <div className='max-w-lg w-full h-[600px] rounded-2xl overflow-hidden flex-grow relative'>
+                            <Image placeholder="blur" blurDataURL={Others.blurDataURL} src={Others.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to stop ringing alarm" fill={true} />
                         </div>
                     </div>
                 </section>
@@ -81,10 +86,9 @@ function page() {
                             <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg lkjhgfd mx-auto lg:mx-0 lg:text-left leading-relaxed'>
                                 <strong>Step3: </strong>Tap remove, It won&apos;t ring until another user does not ring again. If you remove that person multiple times, the person will be blocked permanently.
                             </p>
-
                         </div>
-                        <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="trial features" fill={true} />
+                        <div className='max-w-lg w-full h-[650px] rounded-2xl overflow-hidden flex-grow relative'>
+                            <Image placeholder="blur" blurDataURL={Yours.blurDataURL} src={Yours.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to prevent ringing alarm" fill={true} />
                         </div>
                     </div>
                 </section>
@@ -102,8 +106,9 @@ function page() {
                                 <strong>Step3: </strong>You need to have subscription to access this feature
                             </p>
                         </div>
-                        <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Two.blurDataURL} src={Two.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to manage alarm" fill={true} />
+                        
+                        <div className='max-w-lg w-full h-[450px] rounded-2xl overflow-hidden flex-grow relative'>
+                            <Image placeholder="blur" blurDataURL={Chat.blurDataURL} src={Chat.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="start a conversation on love alarm" fill={true} />
                         </div>
                     </div>
                 </section>
@@ -123,7 +128,7 @@ function page() {
 
                         </div>
                         <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="trial features" fill={true} />
+                            <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="disable love alarm" fill={true} />
                         </div>
                     </div>
                 </section>

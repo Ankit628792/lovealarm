@@ -38,7 +38,7 @@ function Navbar() {
             <nav className={`w-full sticky top-0 bg-rose-500 z-40`}>
                 <div className='max-w-7xl flex items-center justify-between mx-auto text-white px-5'>
                     <Link href={"/"}>
-                        <div className='flex items-center'>
+                        <div className='flex items-center opacity-0 md:opacity-100'>
                             <Image src={"/android-chrome-512x512.png"} width={70} height={70} alt='love alarm app logo' className='mix-blend-lighten rounded-full' />
                             <h1 className='text-3xl font-semibold hidden sm:inline-block'>Love 2.0</h1>
                         </div>

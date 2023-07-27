@@ -10,6 +10,9 @@ import Three from '../assets/three.png'
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
 import Features from "@/components/Features";
+import Nearby from '../assets/nearby.png'
+import LoveAlarm from '../assets/lovealarm.png'
+
 
 const faq = [
   {
@@ -64,7 +67,7 @@ export default function Home() {
             </div>
           </div>
           <div className="h-[600px]">
-            <img src={Mockup.src} className="w-full h-full object-contain" alt="love alarm" />
+            <img src={LoveAlarm.src} className="w-full h-full object-contain" alt="love alarm" />
           </div>
         </section>
 
@@ -106,8 +109,8 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className='max-w-lg w-full h-[600px] rounded-2xl overflow-hidden flex-grow relative'>
-              <Image placeholder="blur" blurDataURL={Two.blurDataURL} src={Two.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to manage alarm" fill={true} />
+            <div className='max-w-lg w-full h-[650px] rounded-2xl overflow-hidden flex-grow relative'>
+              <Image placeholder="blur" blurDataURL={Nearby.blurDataURL} src={Nearby.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="how to manage alarm" fill={true} />
             </div>
           </div>
         </section>
