@@ -1,19 +1,28 @@
 import { privacyPolicy } from '@/utils'
+import Head from 'next/head'
 import React from 'react'
 
 export const metadata = {
-    title: 'Love 2.0 | Privacy Policy',
-    description: 'Love alarm privacy policy contains all the privacy regarding love alarm',
+    metadataBase: new URL(process.env.host),
+    title: 'Love 2.0 | Privacy Policy for Love alarm 2.0',
+    description: 'Love alarm 2.0 privacy policy contains all the privacy It outlines the types of data collected and how it is used. It also explains user rights and how to exercise them. Finally, it outlines how user data is kept secure.',
+    author: 'ankit628792',
     openGraph: {
-        title: 'Love 2.0',
-        description: 'Love alarm is an application that lets the user know if someone who loves them is present within a 10m radius. It has to ring if you like someone in the world we live in now',
-        image: '/android-chrome-512x512.png'
+        title: 'Love Alarm 2.0 | Privacy Policy',
+        description: 'Love alarm 2.0 privacy policy contains all the privacy It outlines the types of data collected and how it is used. It also explains user rights and how to exercise them. Finally, it outlines how user data is kept secure.',
+        url: process.env.host + '/privacy-policy',
+        siteName: 'Love Alarm 2.0',
+        images: '/android-chrome-512x512.png',
     },
 }
 
 function privacy_policy() {
     return (
         <>
+            <Head>
+                <meta name='keywords' content='love alarm privacy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm privacy policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company' />
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>
                 <div className='policy max-w-4xl rounded-lg p-5 md:p-10 xl:px-20 !m-5 lg:!mx-auto border border-slate-200 bg-slate-50 filter backdrop-blur-lg'>
                     <h4 className="text-3xl lg:text-4xl font-semibold text-rose-500 text-center pb-2">Privacy Policy</h4>

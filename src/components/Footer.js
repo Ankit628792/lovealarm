@@ -10,7 +10,7 @@ function Footer() {
                 <div className='flex flex-col md:flex-row items-start justify-between w-full gap-y-10 max-w-7xl mx-auto py-4'>
                     <div className="text-3xl font-semibold text-white flex-shrink-0 cursor-pointer">
                         <Link href={"/"}>Love Alarm 2.0</Link>
-                        <p className='text-gray-300 font-normal text-lg max-w-md mt-2'>An application that lets the user know if someone who loves them is present within a 10m radius</p>
+                        <p className='text-gray-300 font-normal text-lg max-w-md mt-2'>An application that lets the user know if someone who loves them is in their vicinity</p>
                     </div>
                     <div className='flex flex-wrap md:flex-nowrap gap-x-20 gap-y-10'>
                         <div className='flex flex-col gap-2 w-full'>

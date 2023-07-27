@@ -1,9 +1,27 @@
+import Head from 'next/head'
 import React from 'react'
+
+export const metadata = {
+    metadataBase: new URL(process.env.host),
+    title: 'Love 2.0 | Refund Policy for Love alarm 2.0',
+    description: 'Love alarm 2.0 refund policy: Anyone who is unsatisfied with Love alarm 2.0 can receive a full refund within 7 days of purchase. Refunds will be returned to the original payment method. All refunds must be requested in writing to our customer service team.',
+    author: 'ankit628792',
+    openGraph: {
+        title: 'Love Alarm 2.0 | Refund Policy',
+        description: 'Love alarm 2.0 refund policy: Anyone who is unsatisfied with Love alarm 2.0 can receive a full refund within 7 days of purchase. Refunds will be returned to the original payment method. All refunds must be requested in writing to our customer service team.',
+        url: process.env.host + '/refund-policy',
+        siteName: 'Love Alarm 2.0',
+        images: '/android-chrome-512x512.png',
+    },
+}
 
 function refund_policy() {
     return (
         <>
-
+            <Head>
+                <meta name='keywords' content='love alarm refund policy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company' />
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+            </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>
                 <div className='policy max-w-4xl rounded-lg p-5 md:p-10 xl:px-20 !m-5 lg:!mx-auto border border-slate-200  bg-slate-50 filter backdrop-blur-lg'>
                     <h4 className="text-3xl lg:text-4xl font-semibold text-rose-500 text-center pb-2">Refund Policy </h4>

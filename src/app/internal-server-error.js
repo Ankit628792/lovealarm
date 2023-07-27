@@ -2,6 +2,7 @@ import React from 'react'
 
 export const metadata = {
     title: 'Love 2.0 | Internal server error',
+    author: 'ankit628792',
     description: 'Looks like that love alarm 2.0 server got some issue, try again again some time it will be available soon.'
 }
 

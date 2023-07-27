@@ -2,6 +2,7 @@ import React from 'react'
 
 export const metadata = {
     title: 'Love 2.0 | Page Not Found',
+    author: 'ankit628792',
     description: 'Looks like that love alarm 2.0 page that you are trying to access is not exist, make sure you are accessing the correct page'
 }
 

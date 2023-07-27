@@ -10,7 +10,6 @@ import Three from '../assets/three.png'
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
 import Features from "@/components/Features";
-import Head from "next/head";
 
 const faq = [
   {
@@ -40,11 +39,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Love 2.0 | Home</title>
-        <meta name="description" content="Love Alarm is an application that lets the user know if someone who loves them is present within a 10m radius. It has to ring if you like someone in the world we live in now." />
-        <meta name="keywords" content="love alarm, love alarm 2.0, love , alarm , love 2.0" />
-      </Head>
       <main className='relative flex-grow min-h-screen'>
         <ScrollToTop />
 
@@ -140,7 +134,7 @@ export default function Home() {
 
         <Features />
 
-        <section className='flex flex-col items-center justify-center gap-4 py-20 bg-rose-500 min-h-[80vh]' id="download">
+        <section className='flex flex-col items-center justify-center gap-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
           <h1 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h1>
           <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now</p>
           <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
