@@ -11,7 +11,7 @@ module.exports = {
     },
     env: {
         host: process.env.HOST,
-       mail_user: process.env.MAIL_USER,
-       mail_password: process.env.MAIL_PASSWORD
+        mail_user: process.env.MAIL_USER,
+        mail_password: process.env.MAIL_PASSWORD
     }
 }
