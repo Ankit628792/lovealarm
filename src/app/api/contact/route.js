@@ -73,7 +73,7 @@ export async function POST(request) {
         ">Thanks & Regards,<br/>Team Love 2.0</p></div>
             `
             }
-            await sendEMail(data2);
+            sendEMail(data2);
         }
 
         let json_response = {
