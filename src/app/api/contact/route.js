@@ -73,7 +73,7 @@ export async function POST(request) {
         ">Thanks & Regards,<br/>Team Love 2.0</p></div>
             `
             }
-           await sendEMail(data2);
+            await sendEMail(data2);
         }
 
         let json_response = {
@@ -96,13 +96,13 @@ const sendEMail = async (data) => {
             secureConnection: true,
             port: 465,
             auth: {
-                user: 'contact@lovealarm.in',
-                pass: 'Ankit@628792',
+                user: process.env.mail_user,
+                pass: process.env.mail_password,
             },
         })
 
         const mailData = {
-            from: 'contact@lovealarm.in',
+            from: process.env.mail_user,
             to: `${data.email}`,
             subject: `${data.subject}`,
             text: `${data.text}`,
