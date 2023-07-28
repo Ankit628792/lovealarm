@@ -96,13 +96,13 @@ const sendEMail = async (data) => {
             secureConnection: true,
             port: 465,
             auth: {
-                user: process.env.mail_user,
-                pass: process.env.mail_password,
+                user: 'contact@lovealarm.in',
+                pass: 'Ankit@628792',
             },
         })
 
         const mailData = {
-            from: process.env.mail_user,
+            from: 'contact@lovealarm.in',
             to: `${data.email}`,
             subject: `${data.subject}`,
             text: `${data.text}`,
