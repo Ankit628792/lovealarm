@@ -1,5 +1,5 @@
 import React from 'react'
-import Two from '../../assets/two.png'
+import Activate from '../../assets/activate.png'
 import Three from '../../assets/three.png'
 import Image from 'next/image'
 import Head from 'next/head'
@@ -127,8 +127,8 @@ function page() {
                             </p>
 
                         </div>
-                        <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-                            <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="disable love alarm" fill={true} />
+                        <div className='max-w-lg w-full h-[650px] rounded-2xl overflow-hidden flex-grow relative'>
+                            <Image placeholder="blur" blurDataURL={Activate.blurDataURL} src={Activate.src} priority={false} loading="lazy" className='object-cover transition-transform duration-300 ease-in-out drop-shadow' alt="disable love alarm" fill={true} />
                         </div>
                     </div>
                 </section>

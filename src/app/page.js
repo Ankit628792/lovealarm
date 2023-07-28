@@ -1,12 +1,11 @@
 'use client'
 import ScrollToTop from "@/components/ScrollToTop";
 import Image from "next/image";
-import Mockup from '../assets/mockup.png'
 import Play from '../assets/google-play.png'
 import Android from '../assets/android.png'
 import Apple from '../assets/apple.png'
-import Two from '../assets/two.png'
-import Three from '../assets/three.png'
+import Subscription from '../assets/subscription.png'
+import AK from '../assets/AK.png'
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
 import Features from "@/components/Features";
@@ -49,9 +48,10 @@ export default function Home() {
           <div className="p-5 py-20 md:py-0">
             <h1 className="text-white sm:text-3xl font-medium mb-3 text-center md:text-left">Presenting <br /><strong className="text-4xl sm:text-6xl md:text-5xl lg:text-7xl ">Love Alarm 2.0</strong></h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-white text-center md:text-left">A new way to tell someone, you like them.</p>
-            <p className="sm:text-lg text-gray-100 text-center md:text-left">Download Now and Start with a free trial</p>
+            <p className="sm:text-lg text-gray-100 text-center md:text-left">Download now and get a subscription for free</p>
 
-            <div className="flex items-center justify-center md:justify-start gap-4 my-6 flex-wrap transform scale-90 sm:scale-100">
+            <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-4 mx-auto md:mx-0 py-2 px-4 rounded-lg">Available from August 1st</h1>
+            {/* <div className="flex items-center justify-center md:justify-start gap-4 my-6 flex-wrap transform scale-90 sm:scale-100">
               <div className="flex items-center gap-2 bg-black text-white rounded-full max-w-max py-2 px-5 cursor-pointer">
                 <div className="relative w-7 h-7">
                   <Image alt="love alarm play store" src={Play.src} blurDataURL={Play.blurDataURL} fill={true} />
@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
                 <strong>Download APK</strong>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="h-[600px]">
             <img src={LoveAlarm.src} className="w-full h-full object-contain" alt="love alarm" />
@@ -118,9 +118,9 @@ export default function Home() {
         <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-16 min-h-[70vh]`}>
             <div className='flex-grow'>
-              <h1 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Start With Free Trial</h1>
-              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Stop ringing alarm either yours or others', match access and chat access with enhanced securities. </p>
-              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Start with the free trial to see for yourself how our product can help you. After the trial period, you can decide if you want to purchase a subscription and unlock all the features.</p>
+              <h1 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Get Free Subscription</h1>
+              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Access the prime features like stop ringing alarm either yours or others', match access and chat access with enhanced securities. </p>
+              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Download now to see for yourself how our product can help you. After the trial period, you can decide if you want to purchase a subscription and unlock all the features.</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <button type="button" className="max-w-max my-4">
                   <Link href={`${process.env.host}/#download`}>
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
             </div>
             <div className='max-w-lg w-full h-[400px] sm:h-[500px] rounded-2xl overflow-hidden flex-grow relative'>
-              <Image placeholder="blur" blurDataURL={Three.blurDataURL} src={Three.src} priority={false} loading="lazy" className='object-cover hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="trial features" fill={true} />
+              <Image placeholder="blur" blurDataURL={Subscription.blurDataURL} src={Subscription.src} priority={false} loading="lazy" className='object-cover transition-transform duration-300 ease-in-out drop-shadow' alt="trial features" fill={true} />
             </div>
           </div>
         </section>
@@ -140,7 +140,11 @@ export default function Home() {
         <section className='flex flex-col items-center justify-center gap-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
           <h1 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h1>
           <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now</p>
-          <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
+
+          <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching on August 1st</h1>
+          <h1 className="text-white text-lg font-medium">Stay Tuned ....</h1>
+
+          {/* <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
             <div className="flex items-center gap-2 bg-black text-white rounded-full max-w-max py-2 px-5 cursor-pointer">
               <div className="relative w-7 h-7">
                 <Image src={Play.src} blurDataURL={Play.blurDataURL} fill={true} alt="love alarm play store" />
@@ -159,8 +163,8 @@ export default function Home() {
               </div>
               <strong>Coming Soon</strong>
             </div>
+          </div> */}
 
-          </div>
         </section>
         <section className='sm:min-h-[100vh] flex flex-col items-center justify-center max-w-7xl mx-auto w-full py-20'>
           <h1 className='text-3xl sm:text-4xl xl:text-5xl text-rose-500 text-center mb-10 font-semibold '>Frequently Asked Questions</h1>
