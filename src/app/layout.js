@@ -57,10 +57,13 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`flex flex-col w-full min-h-screen`}>
         {/* Google Tag Manager (noscript) */}
-        <noscript>
+        <noscript dangerouslySetInnerHTML={{
+          __html: `
           <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52W2BTR3"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
+          `
+        }} />
+
         {/* <End Google Tag Manager (noscript) */}
         <Navbar />
         {children}
