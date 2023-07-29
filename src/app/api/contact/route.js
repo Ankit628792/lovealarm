@@ -13,10 +13,7 @@ export async function GET() {
 export async function POST(request) {
 
     try {
-
-
         let { name, email, message, mobile } = await request.json();
-
         let data = {
             email: 'ankit628792@gmail.com',
             subject: `${name} has contacted you on love alarm 2.0`,

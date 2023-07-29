@@ -48,7 +48,7 @@ export default function Contact() {
 
         try {
             setLoading(true)
-            let res = await fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) });
+            let res = await fetch(process.env.contact_url, { method: 'POST', body: JSON.stringify(data) });
 
             if (res.status == 200) {
                 window.scrollTo(0, 0);

@@ -123,9 +123,9 @@ export default function Home() {
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Download now to see for yourself how our product can help you. After the trial period, you can decide if you want to purchase a subscription and unlock all the features.</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <button type="button" className="max-w-max my-4">
-                  <Link href={`${process.env.host}/#download`}>
+                  <a href={`${process.env.host}/#download`}>
                     <h1 className="text-white bg-rose-500 py-2 px-5 rounded-lg font-medium">Download Now</h1>
-                  </Link>
+                  </a>
                 </button>
               </div>
             </div>

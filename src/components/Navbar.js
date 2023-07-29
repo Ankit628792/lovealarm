@@ -60,11 +60,11 @@ function Navbar() {
                     </ul>
 
                     <div>
-                        <Link href={`/#download`}>
+                        <a href={`${process.env.host}/#download`}>
                             <button className='py-2 px-5 rounded-full bg-white text-rose'>
                                 <strong>Download App</strong>
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </nav>
