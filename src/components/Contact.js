@@ -49,7 +49,7 @@ export default function Contact() {
         try {
             setLoading(true)
             let res = await fetch(process.env.contact_url, {
-                method: 'POST', body: data,
+                method: 'POST', body: JSON.stringify(data),
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -84,7 +84,7 @@ export default function Contact() {
                         <div className="mx-auto max-w-2xl text-center">
                             <h2 className="text-3xl font-semibold text-rose-500 sm:text-4xl lg:text-5xl">Contact us</h2>
                             <p className="mt-2 sm:text-lg text-gray-600">
-                                We’re happy to hear from you! Contact us today and speak with one of our customer service representatives — and make your experience with us that much more pleasant!
+                                We’re happy to hear from you! Contact us (<span className="text-sky-500 hover:text-sky-600">or mail to contact@lovealarm.in</span>) today and speak with one of our customer service representatives — and make your experience with us that much more pleasant!
                             </p>
                         </div>
                         <form onSubmit={handleSubmit} className="mx-auto max-w-xl mt-5">
