@@ -50,7 +50,7 @@ export default function Home() {
             <p className="text-lg sm:text-xl lg:text-2xl text-white text-center md:text-left">A new way to tell someone, you like them.</p>
             <p className="sm:text-lg text-gray-100 text-center md:text-left">Download now and get a subscription for free</p>
 
-            <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-4 mx-auto md:mx-0 py-2 px-4 rounded-lg">Available from August 1st</h1>
+            <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-4 mx-auto md:mx-0 py-2 px-4 rounded-lg">Available Soon</h1>
             {/* <div className="flex items-center justify-center md:justify-start gap-4 my-6 flex-wrap transform scale-90 sm:scale-100">
               <div className="flex items-center gap-2 bg-black text-white rounded-full max-w-max py-2 px-5 cursor-pointer">
                 <div className="relative w-7 h-7">
@@ -141,7 +141,7 @@ export default function Home() {
           <h1 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h1>
           <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now</p>
 
-          <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching on August 1st</h1>
+          <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching Soon</h1>
           <h1 className="text-white text-lg font-medium">Stay Tuned ....</h1>
 
           {/* <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
