@@ -29,7 +29,9 @@ function refund_policy() {
                     <div className="h-1 w-48 mx-auto mb-3 md:mb-5 bg-sky-500 rounded-lg"></div>
 
                     <p className={`text-gray-800 text-base text-justify mt-1`}>Last updated: July 22, 2023</p>
-                    <p className={`text-gray-800 text-base text-justify mt-1`}>Thank you for the purchase at Love Alarm 2.0 (a product from <a className='hover:text-rose-500' href='https://www.delanki.com/' target='_blank'>Delanki</a>).</p>
+                    <p className={`text-gray-800 text-base text-justify mt-1`}>Thank you for the purchase at Love Alarm 2.0 
+                    {/* (a product from <a className='hover:text-rose-500' href='https://www.delanki.com/' target='_blank'>Delanki</a>). */}
+                    </p>
                     <p className={`text-gray-800 text-base text-justify mt-1`}>The following terms are applicable for any products that You purchased with Us.</p>
                     <h3 className={`text-rose-500 text-xl font-medium mt-5`}>Interpretation and Definitions</h3>
                     <h2>Interpretation</h2>
