@@ -48,7 +48,7 @@ export default function Contact() {
 
         try {
             setLoading(true)
-            let res = await fetch('/api/contact', {
+            let res = await fetch(process.env.contact_url, {
                 method: 'POST', body: JSON.stringify(data),
                 headers: {
                     'Content-Type': 'application/json'
