@@ -13,7 +13,7 @@ export const faqs = {
         {
             id: 3,
             title: 'Why is the Love alarm?',
-            description: `Why is it so hard to tell someone you like them when you like them? It has to ring if you like someone in the world we live in now. It’s not just an app that rings alarm, it’s is a way of expressing how you felt about someone.`
+            description: `Why is it so hard to tell someone you like them when you like them? It has to ring if you like someone in the world we live in now. It’s not just an app that rings alarm, it’s a way of expressing how you felt about someone.`
         },
         {
             id: 4,

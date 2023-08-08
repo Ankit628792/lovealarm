@@ -19,7 +19,7 @@ function refund_policy() {
     return (
         <>
             <Head>
-                <meta name='keywords' content='love alarm refund policy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company' />
+                <meta name='keywords' content='love alarm refund policy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
             </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>

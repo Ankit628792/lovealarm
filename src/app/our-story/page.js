@@ -27,7 +27,7 @@ function page() {
     return (
         <>
             <Head>
-                <meta name='keywords' content='love alarm story, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm concept, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company' />
+                <meta name='keywords' content='love alarm story, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm concept, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website, love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
             </Head>
             <main className='flex-grow'>
@@ -85,7 +85,7 @@ function page() {
                 </section>
 
 
-                {/* <section className='min-h-screen w-full p-5 flex flex-col items-center justify-center pt-10'>
+                <section className='min-h-screen w-full p-5 flex flex-col items-center justify-center pt-10'>
                     <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl 2xl:max-w-xl max-w-lg mx-auto'>Who We are?</h1>
                     <p className='lg:text-lg text-center max-w-4xl mx-auto my-4 text-gray-500'>We are part of <a className='text-rose-500 hover:text-rose-600 cursor-pointer' href='https://www.delanki.com' target='_blank'>Delanki</a>, a product development startup company, founded in 2023. We specialize in developing cutting-edge software products that solve everyday problems. Our team consists of engineers, designers, and entrepreneurs with a passion for innovation and creating products that make a difference. We are constantly pushing our limits and developing groundbreaking products that exceed customer expectations. We strive for excellence and are committed to creating products that can make a positive impact on the world.</p>
 
@@ -95,7 +95,7 @@ function page() {
                             <p className='text-2xl md:text-3xl lg:text-4xl text-center max-w-4xl mx-auto my-4 text-gray-100' style={{ lineHeight: 1.5 }}>Our mission is to create innovative products and services that solve real world problems. We strive to make products that are simple and intuitive to use and affordable for everyone.</p>
                         </div>
                     </div>
-                </section> */}
+                </section>
             </main>
         </>
     )
