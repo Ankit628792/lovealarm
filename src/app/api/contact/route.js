@@ -88,10 +88,10 @@ export async function POST(request) {
 const sendEMail = async (data) => {
     try {
         const transporter = nodemailer.createTransport({
-            service: 'Godaddy',
             host: "smtpout.secureserver.net",
-            secureConnection: true,
             port: 465,
+            ssl: false,
+            secure: true,
             auth: {
                 user: process.env.mail_user,
                 pass: process.env.mail_password,
