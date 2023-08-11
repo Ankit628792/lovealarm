@@ -5,12 +5,12 @@ import Footer from '@/components/Footer'
 
 export const metadata = {
   metadataBase: new URL(process.env.host),
-  title: 'Love 2.0 - It has to ring if you like someone',
+  title: 'Love Alarm 2.0 - Ring your crushes alarm',
   author: 'ankit628792',
-  description: 'An application that lets the user know if someone who loves them is in their vicinity. It has to ring if you like someone in the world we live in now',
+  description: 'An app that lets the user know if someone who loves them is in their vicinity.',
   openGraph: {
-    title: 'Love Alarm 2.0 - It has to ring if you like someone',
-    description: 'An application that lets the user know if someone who loves them is in their vicinity. It has to ring if you like someone in the world we live in now',
+    title: 'Love Alarm 2.0 - Ring your crushes alarm',
+    description: 'An app that lets the user know if someone who loves them is in their vicinity.',
     url: process.env.host,
     siteName: 'Love Alarm 2.0',
     images: '/android-chrome-512x512.png',
