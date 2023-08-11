@@ -27,7 +27,7 @@ function page() {
     return (
         <>
             <Head>
-                <meta name='keywords' content='love alarm app, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm version 2 working, love 2.0, love, ankit ,ankit62879, kim so hyun, kim so-hyun ,love alarm download, love alarm apk, love alarm 2.0 privacy policy, love alarm ios, love alarm version2 ios,  love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
+                <meta name='keywords' content='love alarm app, love alarm, love alarm 2.0 , 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm version 2 working, love 2.0, love, ankit ,ankit62879, kim so hyun, kim so-hyun ,love alarm download, love alarm apk, love alarm 2.0 privacy policy, love alarm ios, love alarm version2 ios,  love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
             </Head>
             <main className='flex-grow'>
