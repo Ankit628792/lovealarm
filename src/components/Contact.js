@@ -2,7 +2,7 @@
 "use client"
 import { useState } from "react"
 import Image from 'next/image'
-import Mail from '../assets/mail.png'
+import Mail from '@/assets/mail.png'
 import validator from 'validator'
 
 export default function Contact() {

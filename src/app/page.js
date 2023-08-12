@@ -1,15 +1,15 @@
 'use client'
 import ScrollToTop from "@/components/ScrollToTop";
 import Image from "next/image";
-import Play from '../assets/google-play.png'
-import Android from '../assets/android.png'
-import Apple from '../assets/apple.png'
-import Subscription from '../assets/subscription.png'
+import Play from '@/assets/google-play.png'
+import Android from '@/assets/android.png'
+import Apple from '@/assets/apple.png'
+import Subscription from '@/assets/subscription.png'
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
 import Features from "@/components/Features";
-import Nearby from '../assets/nearby.png'
-import LoveAlarm from '../assets/lovealarm.png'
+import Nearby from '@/assets/nearby.png'
+import LoveAlarm from '@/assets/lovealarm.png'
 
 const faq = [
   {

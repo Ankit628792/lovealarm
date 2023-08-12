@@ -1,5 +1,5 @@
 import { faqs } from "@/utils";
-import Accordion from "../../components/Accordion";
+import Accordion from "@/components/Accordion";
 import Head from "next/head";
 
 export const metadata = {
