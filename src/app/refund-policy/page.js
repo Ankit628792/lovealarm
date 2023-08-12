@@ -19,8 +19,13 @@ function refund_policy() {
     return (
         <>
             <Head>
-                <meta name='keywords' content='love alarm refund policy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
-                <link rel="icon" type="image/x-icon" href="favicon.ico" />
+                <link key={'apple-icon'} rel="apple-touch-icon" type="image/png" href={`${process.env.host}/apple-touch-icon.png`} />
+                <meta name='keywords' content='love alarm refund policy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, love, ankit62879, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm download, love alarm apk, love alarm limitation, love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website , love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
+                <link rel="shortcut icon" type="image/png" href={`${process.env.host}/favicon.png`} />
+                <link rel="icon" type="image/png" href={`${process.env.host}/favicon.png`} />
+                <link key={`icon-16`} rel="icon" type="image/png" sizes="16x16" href={`${process.env.host}/favicon-16x16.png`} />
+                <link key={`icon-32`} rel="icon" type="image/png" sizes="32x32" href={`${process.env.host}/favicon-32x32.png`} />
             </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>
                 <div className='policy max-w-4xl rounded-lg p-5 md:p-10 xl:px-20 !m-5 lg:!mx-auto border border-slate-200  bg-slate-50 filter backdrop-blur-lg'>
@@ -29,8 +34,8 @@ function refund_policy() {
                     <div className="h-1 w-48 mx-auto mb-3 md:mb-5 bg-sky-500 rounded-lg"></div>
 
                     <p className={`text-gray-800 text-base text-justify mt-1`}>Last updated: July 22, 2023</p>
-                    <p className={`text-gray-800 text-base text-justify mt-1`}>Thank you for the purchase at Love Alarm 2.0 
-                    {/* (a product from <a className='hover:text-rose-500' href='https://www.delanki.com/' target='_blank'>Delanki</a>). */}
+                    <p className={`text-gray-800 text-base text-justify mt-1`}>Thank you for the purchase at Love Alarm 2.0
+                        {/* (a product from <a className='hover:text-rose-500' href='https://www.delanki.com/' target='_blank'>Delanki</a>). */}
                     </p>
                     <p className={`text-gray-800 text-base text-justify mt-1`}>The following terms are applicable for any products that You purchased with Us.</p>
                     <h3 className={`text-rose-500 text-xl font-medium mt-5`}>Interpretation and Definitions</h3>

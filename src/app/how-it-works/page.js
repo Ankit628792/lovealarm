@@ -27,8 +27,13 @@ function page() {
     return (
         <>
             <Head>
-                <meta name='keywords' content='love alarm app, love alarm, love alarm 2.0 , 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm version 2 working, love 2.0, love, ankit ,ankit62879, kim so hyun, kim so-hyun ,love alarm download, love alarm apk, love alarm 2.0 privacy policy, love alarm ios, love alarm version2 ios,  love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
-                <link rel="icon" type="image/x-icon" href="favicon.ico" />
+                <link key={'apple-icon'} rel="apple-touch-icon" type="image/png" href={`${process.env.host}/apple-touch-icon.png`} />
+                <meta name='keywords' content='love alarm app, love alarm, love alarm 2.0 , 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm version 2 working, love 2.0, love, ankit ,ankit62879, kim so hyun, kim so-hyun ,love alarm download, love alarm apk, love alarm 2.0 privacy policy, love alarm ios, love alarm version2 ios,  love alarm website , love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
+                <link rel="shortcut icon" type="image/png" href={`${process.env.host}/favicon.png`} />
+                <link rel="icon" type="image/png" href={`${process.env.host}/favicon.png`} />
+                <link key={`icon-16`} rel="icon" type="image/png" sizes="16x16" href={`${process.env.host}/favicon-16x16.png`} />
+                <link key={`icon-32`} rel="icon" type="image/png" sizes="32x32" href={`${process.env.host}/favicon-32x32.png`} />
             </Head>
             <main className='flex-grow'>
                 <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>
@@ -106,7 +111,7 @@ function page() {
                                 <strong>Step3: </strong>You need to have subscription to access this feature
                             </p>
                         </div>
-                        
+
                         <div className='max-w-lg w-full h-[450px] rounded-2xl overflow-hidden flex-grow relative'>
                             <Image placeholder="blur" blurDataURL={Chat.blurDataURL} src={Chat.src} priority={false} loading="lazy" className='hover:scale-105 transition-transform duration-300 ease-in-out drop-shadow' alt="start a conversation on love alarm" fill={true} />
                         </div>
