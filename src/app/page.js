@@ -11,6 +11,19 @@ import Features from "@/components/Features";
 import Nearby from '../assets/nearby.png'
 import LoveAlarm from '../assets/lovealarm.png'
 
+export const metadata = {
+  metadataBase: new URL(process.env.host),
+  title: 'Love Alarm 2.0 - Ring your crushes alarm',
+  author: 'ankit628792',
+  description: 'An app that lets the user know if someone who loves them is in their vicinity.',
+  openGraph: {
+    title: 'Love Alarm 2.0 - Ring your crushes alarm',
+    description: 'An app that lets the user know if someone who loves them is in their vicinity.',
+    url: process.env.host,
+    siteName: 'Love Alarm 2.0',
+    images: '/android-chrome-512x512.png',
+  }
+}
 
 const faq = [
   {

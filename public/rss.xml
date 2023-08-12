@@ -3,6 +3,11 @@
 	<channel>
 		<title>Love Alarm 2.0</title>
 		<link>https://www.lovealarm.in</link>
+		<image>
+			<url>https://www.lovealarm.in/android-chrome-512x512.png</url>
+			<title>Love Alarm 2.0</title>
+			<link>https://www.lovealarm.in</link>
+		</image>
 		<description>An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off</description>
 		<item>
 			<title>Home</title>
