@@ -6,7 +6,7 @@ module.exports = {
         domains: []
     },
     i18n: {
-        locales: ['en-US', 'fr', 'nl-NL', 'ko'],
+        locales: ['en-US', 'fr', 'nl-NL', 'ko', 'es', 'de'],
         defaultLocale: 'en-US',
     },
     env: {
