@@ -28,7 +28,7 @@ function page() {
         <>
             <Head>
                 <meta name='keywords' content='love alarm story, love alarm, love alarm 2.0, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm concept, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website, love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+                <link rel="icon" type="image/x-icon" href="favicon.ico" />
             </Head>
             <main className='flex-grow'>
                 <img className='absolute inset-0 -z-10 2xl:max-w-[95%]' src={wave.src} alt="" />

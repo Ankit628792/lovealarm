@@ -21,7 +21,7 @@ function privacy_policy() {
         <>
             <Head>
                 <meta name='keywords' content='love alarm privacy, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm privacy policy, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, kim so-hyun,love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+                <link rel="icon" type="image/x-icon" href="favicon.ico" />
             </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>
                 <div className='policy max-w-4xl rounded-lg p-5 md:p-10 xl:px-20 !m-5 lg:!mx-auto border border-slate-200 bg-slate-50 filter backdrop-blur-lg'>

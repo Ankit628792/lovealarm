@@ -13,10 +13,10 @@ export const metadata = {
     metadataBase: new URL(process.env.host),
     title: 'Love 2.0 | How it works for Love Alarm 2.0',
     author: 'ankit628792',
-    description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you need',
+    description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you have expected',
     openGraph: {
         title: 'Love Alarm 2.0 | How it works for Love Alarm 2.0',
-        description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you need',
+        description: 'Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you have expected',
         url: process.env.host + '/how-it-works',
         siteName: 'Love Alarm 2.0',
         images: '/android-chrome-512x512.png',
@@ -28,7 +28,7 @@ function page() {
         <>
             <Head>
                 <meta name='keywords' content='love alarm app, love alarm, love alarm 2.0 , 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm version 2 working, love 2.0, love, ankit ,ankit62879, kim so hyun, kim so-hyun ,love alarm download, love alarm apk, love alarm 2.0 privacy policy, love alarm ios, love alarm version2 ios,  love alarm website , love alarm 2.0 website, love alarm 2.o website, love alarm 2.o' />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+                <link rel="icon" type="image/x-icon" href="favicon.ico" />
             </Head>
             <main className='flex-grow'>
                 <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>

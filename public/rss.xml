@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Love Alarm 2.0</title>
+		<link>https://www.lovealarm.in</link>
+		<description>An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off</description>
+		<item>
+			<title>Home</title>
+			<link>https://www.lovealarm.in/</link>
+			<pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+			<description>Presenting Love Alarm 2.0 - A new way to tell someone, you like them. When you and the other person come within 10m radius, your crush's alarm will go off</description>
+			<enclosure url="https://www.lovealarm.in/android-chrome-512x512.png" type="image/jpeg" />
+		</item>
+		<item>
+			<title>How It Works</title>
+			<link>https://www.lovealarm.in/how-it-works</link>
+			<pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+			<description>Learn how to use love alarm app: how to ring alarm, stop ringing, initiating a conversation, temporarily disable account and much more. Explore now, Love alarm 2.0 provide you what you have expected</description>
+			<enclosure url="https://www.lovealarm.in/android-chrome-512x512.png" type="image/jpeg" />
+		</item>
+		<item>
+			<title>Our Story</title>
+			<link>https://www.lovealarm.in/our-story</link>
+			<pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+			<description>The concept of Love alarm 2.0 originated from the netflix original series Love Alarm that is based on the Daum webtoon of the same name by Chon Kye-young. In a world where an app alerts people if someone in the vicinity likes them, Kim Jojo experiences young love while coping with personal adversities.</description>
+			<enclosure url="https://www.lovealarm.in/android-chrome-512x512.png" type="image/jpeg" />
+		</item>
+		<item>
+			<title>Contact us</title>
+			<link>https://www.lovealarm.in/contact-us</link>
+			<pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+			<description>Contact us on Love alarm 2.0 contact page if you have any questions and facing any issue. We're happy to hear from you! Contact us today and speak with one of our customer service representatives — and make your experience with us that much more pleasant!</description>
+			<enclosure url="https://www.lovealarm.in/android-chrome-512x512.png" type="image/jpeg" />
+		</item>
+		<item>
+			<title>FAQ's</title>
+			<link>https://www.lovealarm.in/frequently-asked-questions</link>
+			<pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+			<description>Contact us on Love alarm 2.0 contact page if you have any questions and facing any issue. We're happy to hear from you! Contact us today and speak with one of our customer service representatives — and make your experience with us that much more pleasant!</description>
+			<enclosure url="https://www.lovealarm.in/android-chrome-512x512.png" type="image/jpeg" />
+		</item>
+	</channel>
+</rss>

@@ -76,7 +76,7 @@ export default function Home() {
 
         <section className='min-h-screen w-full p-5 flex flex-col items-center justify-center'>
           <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl 2xl:max-w-xl max-w-lg mx-auto'>About Love 2.0</h1>
-          <p className='lg:text-lg text-center max-w-3xl mx-auto my-4 text-gray-500'>It is now possible to ring someone's alarm in real life. When you and the other person come within 10m, your crush's  alarm will go off.</p>
+          <p className='lg:text-lg text-center max-w-3xl mx-auto my-4 text-gray-500'>It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off.</p>
 
           <div className="relative w-80 h-80 mx-auto">
             {
@@ -180,7 +180,7 @@ export default function Home() {
               <Accordion key={i} title={item.title} content={item.description} />
             ))}
           </div>
-          <Link href='/frequently-ask-questions'>
+          <Link href='/frequently-asked-questions'>
             <button className="bg-rose-500 text-white mt-5 cursor-pointer px-6 py-2 text-xl font-medium rounded-full mx-auto flex items-center min-w-max">View All </button>
           </Link>
         </section>
