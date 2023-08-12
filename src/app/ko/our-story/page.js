@@ -1,6 +1,5 @@
 import React from 'react'
 import wave from '@/assets/wave.svg'
-import Two from '@/assets/two.png'
 import Image from 'next/image'
 import Team from '@/assets/team.jpg'
 import LoveAlarm from '@/assets/love alarm.jpg'
