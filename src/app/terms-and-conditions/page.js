@@ -21,11 +21,6 @@ function tnc() {
             <Head>
                 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
                 <meta name='keywords' content='love alarm 2.0 terms and conditions, terms ,love alarm, love alarm 2.0 , love alarm app 2.0, love alarm policy, love 2.0, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm download, love alarm apk, love alarm limitation, ankit62879, love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website , love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
-                <link rel="shortcut icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-                <link rel="icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-                <link key={`icon-16`} rel="icon" type="image/png" sizes="16x16" href={`${process.env.host}/favicon-16x16.png`} />
-                <link key={`icon-32`} rel="icon" type="image/png" sizes="32x32" href={`${process.env.host}/favicon-32x32.png`} />
-                <link key={'apple-icon'} rel="apple-touch-icon" type="image/png" href={`${process.env.host}/apple-touch-icon.png`} />
             </Head>
             <section className='flex flex-col gap-10 justify-between min-h-screen w-full'>
                 <div className='policy max-w-4xl rounded-lg p-5 md:p-10 xl:px-20 !m-5 lg:!mx-auto border border-slate-200 bg-slate-50 filter backdrop-blur-lg'>

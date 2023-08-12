@@ -10,6 +10,7 @@ import Link from "next/link";
 import Features from "@/components/Features";
 import Nearby from '../assets/nearby.png'
 import LoveAlarm from '../assets/lovealarm.png'
+import Head from "next/head";
 
 export const metadata = {
   metadataBase: new URL(process.env.host),

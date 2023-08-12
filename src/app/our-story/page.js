@@ -27,13 +27,8 @@ function page() {
     return (
         <>
             <Head>
-                <link key={'apple-icon'} rel="apple-touch-icon" type="image/png" href={`${process.env.host}/apple-touch-icon.png`} />
-                <meta name='keywords' content='love alarm story, love alarm, love alarm 2.0, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm concept, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website, love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
                 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-                <link rel="shortcut icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-                <link rel="icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-                <link key={`icon-16`} rel="icon" type="image/png" sizes="16x16" href={`${process.env.host}/favicon-16x16.png`} />
-                <link key={`icon-32`} rel="icon" type="image/png" sizes="32x32" href={`${process.env.host}/favicon-32x32.png`} />
+                <meta name='keywords' content='love alarm story, love alarm, love alarm 2.0, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm app 2.0, love alarm concept, love 2.0, love, ankit62879, kim so hyun, kim-so-hyun, love alarm download, love alarm apk, love alarm limitation, ankit, ankit62879, kim so hyun, love alarm ios, love alarm version 2 ios, delanki, product company, product development company, love alarm website, love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
             </Head>
             <main className='flex-grow'>
                 <img className='absolute inset-0 -z-10 2xl:max-w-[95%]' src={wave.src} alt="" />

@@ -7,10 +7,10 @@ export const metadata = {
   metadataBase: new URL(process.env.host),
   title: 'Love Alarm 2.0 - Ring your crushes alarm',
   author: 'ankit628792',
-  description: 'An app that lets the user know if someone who loves them is in their vicinity.',
+  description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
   openGraph: {
     title: 'Love Alarm 2.0 - Ring your crushes alarm',
-    description: 'An app that lets the user know if someone who loves them is in their vicinity.',
+    description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
     url: process.env.host,
     siteName: 'Love Alarm 2.0',
     images: '/android-chrome-512x512.png',
@@ -54,11 +54,14 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
         <meta name='keywords' content='love alarm app, 사랑알람 2.0 , 사랑알람 , 사랑알람 2.0 앱, 사랑알람 앱, love alarm, love alarm 2.0 , love alarm app 2.0, love alarm version 2, love 2.0, love, ankit, ankit62879, kim so hyun, kim so-hyun, love alarm download, love alarm apk, love alarm android, love alarm ios, love alarm website , love alarm 2.0 website, love alarm 2.o website, 러브알람 2.0 홈페이지, 러브알람 홈페이지,, love alarm 2.o' />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"></meta>
-        <link rel="shortcut icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-        <link rel="icon" type="image/png" href={`${process.env.host}/favicon.png`} />
-        <link key={`icon-16`} rel="icon" type="image/png" sizes="16x16" href={`${process.env.host}/favicon-16x16.png`} />
-        <link key={`icon-32`} rel="icon" type="image/png" sizes="32x32" href={`${process.env.host}/favicon-32x32.png`} />
-        <link key={'apple-icon'} rel="apple-touch-icon" type="image/png" href={`${process.env.host}/apple-touch-icon.png`} />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="shortcut icon" type="image/png" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={`flex flex-col w-full min-h-screen`}>
         {/* Google Tag Manager (noscript) */}
