@@ -32,6 +32,21 @@ module.exports = {
                 destination: '/robots.txt',
                 permanent: true,
             },
+            {
+                source: '/favicon',
+                destination: '/favicon.png',
+                permanent: true,
+            },
+            {
+                source: '/favicon.icon',
+                destination: '/favicon.png',
+                permanent: true,
+            },
+            {
+                source: '/favicon.ico',
+                destination: '/favicon.png',
+                permanent: true,
+            },
         ]
     },
 }
