@@ -74,7 +74,7 @@ export default function Home() {
         </section>
 
         <section className='min-h-screen w-full p-5 flex flex-col items-center justify-center'>
-          <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl 2xl:max-w-xl max-w-lg mx-auto'>About Love 2.0</h1>
+          <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl mx-auto'>About Love Alarm 2.0</h1>
           <p className='lg:text-lg text-center max-w-3xl mx-auto my-4 text-gray-500'>It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off.</p>
 
           <div className="relative w-80 h-80 mx-auto">
@@ -120,7 +120,7 @@ export default function Home() {
         <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-16 min-h-[70vh]`}>
             <div className='flex-grow'>
-              <h1 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Get Free Subscription</h1>
+              <h1 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Get Prime Subscription</h1>
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Access the prime features like stop ringing alarm either yours or others', match access and chat access with enhanced securities. </p>
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Download now to see for yourself how our product can help you. After the trial period, you can decide if you want to purchase a subscription and unlock all the features.</p>
               <div className="flex items-center justify-center lg:justify-start">
