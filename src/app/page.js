@@ -101,12 +101,12 @@ export default function Home() {
         <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row-reverse items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-20 min-h-[80vh]`}>
             <div className='flex-grow'>
-              <h1 className='font-semibold text-red-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Manage Your Alarm</h1>
+              <h2 className='font-semibold text-red-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Manage Your Alarm</h2>
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center lg:text-left leading-relaxed'>You can access who you want to ring alarms for and who you want to ring alarms for. It is possible for you to control your feelings on your own volition</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <Link href={'/how-it-works'}>
                   <button type="button" className="max-w-max my-4">
-                    <h1 className="text-white bg-rose-500 py-2 px-5 rounded-lg font-medium">Learn How it works</h1>
+                    <h2 className="text-white bg-rose-500 py-2 px-5 rounded-lg font-medium">Learn How it works</h2>
                   </button>
                 </Link>
               </div>
@@ -120,13 +120,13 @@ export default function Home() {
         <section className='sm:min-h-[80vh] grid place-items-center max-w-7xl mx-auto w-full'>
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-16 min-h-[70vh]`}>
             <div className='flex-grow'>
-              <h1 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Get Prime Subscription</h1>
+              <h2 className='font-semibold text-rose-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Get Prime Subscription</h2>
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Access the prime features like stop ringing alarm either yours or others', match access and chat access with enhanced securities. </p>
               <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center mx-auto lg:mx-0 lg:text-left leading-relaxed'>Download now to see for yourself how our product can help you. After the trial period, you can decide if you want to purchase a subscription and unlock all the features.</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <button type="button" className="max-w-max my-4">
                   <a href={`${process.env.host}/#download`}>
-                    <h1 className="text-white bg-rose-500 py-2 px-5 rounded-lg font-medium">Download Now</h1>
+                    <h2 className="text-white bg-rose-500 py-2 px-5 rounded-lg font-medium">Download Now</h2>
                   </a>
                 </button>
               </div>
@@ -140,11 +140,11 @@ export default function Home() {
         <Features />
 
         <section className='flex flex-col items-center justify-center gap-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
-          <h1 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h1>
+          <h2 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h2>
           <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now</p>
 
-          {/* <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching Soon</h1>
-          <h1 className="text-white text-lg font-medium">Stay Tuned ....</h1> */}
+          {/* <h2 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching Soon</h2>
+          <h2 className="text-white text-lg font-medium">Stay Tuned ....</h2> */}
 
           <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
             <Link href={"https://play.google.com/store/apps/details?id=com.lovealarm"}>
@@ -173,7 +173,7 @@ export default function Home() {
 
         </section>
         <section className='sm:min-h-[100vh] flex flex-col items-center justify-center max-w-7xl mx-auto w-full py-20'>
-          <h1 className='text-3xl sm:text-4xl xl:text-5xl text-rose-500 text-center mb-10 font-semibold '>Frequently Asked Questions</h1>
+          <h2 className='text-3xl sm:text-4xl xl:text-5xl text-rose-500 text-center mb-10 font-semibold'>Frequently Asked Questions</h2>
           <div className='w-full max-w-7xl py-2'>
             {faq.map((item, i) => (
               <Accordion key={i} title={item.title} content={item.description} />
@@ -183,8 +183,6 @@ export default function Home() {
             <button className="bg-rose-500 text-white mt-5 cursor-pointer px-6 py-2 text-xl font-medium rounded-full mx-auto flex items-center min-w-max">View All </button>
           </Link>
         </section>
-
-
       </main >
     </>
   )

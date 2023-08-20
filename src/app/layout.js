@@ -13,7 +13,10 @@ export const metadata = {
     url: process.env.host,
     siteName: 'Love Alarm 2.0',
     images: '/android-chrome-512x512.png',
-  }
+  },
+  alternates: {
+    canonical: '/'
+  },
 }
 
 export default function RootLayout({ children }) {
