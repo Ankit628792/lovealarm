@@ -1,3 +1,5 @@
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 export const metadata = {
@@ -9,9 +11,13 @@ export const metadata = {
 function Error() {
     return (
         <>
-            <section className='flex flex-col justify-between w-full flex-grow'>
-                <img src='/404.svg' className='max-h-[500px] mx-5 my-20 sm:m-16' alt='page not found' />
-            </section>
+            <main className='flex flex-col w-full min-h-screen'>
+                <Navbar />
+                <section className='flex flex-col justify-between w-full flex-grow'>
+                    <img src='/404.svg' className='max-h-[500px] mx-5 my-20 sm:m-16' alt='page not found' />
+                </section>
+                <Footer />
+            </main>
         </>
     )
 }

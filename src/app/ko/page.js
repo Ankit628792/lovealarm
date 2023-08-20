@@ -74,7 +74,7 @@ export default function Home() {
         </section>
 
         <section className='min-h-screen w-full p-5 flex flex-col items-center justify-center'>
-          <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl 2xl:max-w-xl max-w-lg mx-auto'>About Love 2.0</h1>
+          <h1 className='font-semibold text-center text-rose-500 text-4xl lg:text-5xl 2xl:text-6xl 2xl:max-w-xl max-w-lg mx-auto'>About Love Alarm 2.0</h1>
           <p className='lg:text-lg text-center max-w-3xl mx-auto my-4 text-gray-500'>It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off.</p>
 
           <div className="relative w-80 h-80 mx-auto">
@@ -102,7 +102,7 @@ export default function Home() {
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row-reverse items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-20 min-h-[80vh]`}>
             <div className='flex-grow'>
               <h1 className='font-semibold text-red-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Manage Your Alarm</h1>
-              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center lg:text-left leading-relaxed'>You can access who you want to ring alarms for and who you want to ring alarms for. It is possible for you to control your feelings on your own volition</p>
+              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center lg:text-left leading-relaxed'>You can access who you want to ring alarms for and who you want to ring alarms for. It is possible for you to control your feelings on your own volition with Love Alarm 2.0.</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <Link href={'/how-it-works'}>
                   <button type="button" className="max-w-max my-4">

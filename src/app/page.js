@@ -102,7 +102,7 @@ export default function Home() {
           <div className={`flex flex-col gap-10 xl:gap-16 lg:flex-row-reverse items-center justify-center w-full mx-auto my-10 p-5 py-10 sm:px-10 xl:px-20 min-h-[80vh]`}>
             <div className='flex-grow'>
               <h2 className='font-semibold text-red-500 text-4xl sm:text-5xl my-3 text-center lg:text-left lg:max-w-md'>Manage Your Alarm</h2>
-              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center lg:text-left leading-relaxed'>You can access who you want to ring alarms for and who you want to ring alarms for. It is possible for you to control your feelings on your own volition</p>
+              <p className='text-gray-500 max-w-2xl lg:max-w-sm 2xl:max-w-xl 2xl:text-lg text-center lg:text-left leading-relaxed'>You can access who you want to ring alarms for and who you want to ring alarms for. It is possible for you to control your feelings on your own volition with Love Alarm 2.0.</p>
               <div className="flex items-center justify-center lg:justify-start">
                 <Link href={'/how-it-works'}>
                   <button type="button" className="max-w-max my-4">
