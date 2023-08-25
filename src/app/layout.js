@@ -2,23 +2,6 @@ import Navbar from '@/components/Navbar'
 import '@/app/globals.css'
 import Footer from '@/components/Footer'
 
-export const metadata = {
-  metadataBase: new URL(process.env.host),
-  title: `Love Alarm 2.0 - Ring yours crush alarm`,
-  author: 'ankit628792',
-  description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
-  openGraph: {
-    title: `Love Alarm 2.0 - Ring yours crush alarm`,
-    description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
-    url: process.env.host,
-    siteName: 'Love Alarm 2.0',
-    images: '/android-chrome-512x512.png',
-  },
-  alternates: {
-    canonical: '/'
-  },
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

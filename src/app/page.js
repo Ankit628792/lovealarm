@@ -1,5 +1,5 @@
-'use client'
-import ScrollToTop from "@/components/ScrollToTop";
+// 'use client'
+// import ScrollToTop from "@/components/ScrollToTop";
 import Image from "next/image";
 import Play from '@/assets/google-play.png'
 import Android from '@/assets/android.png'
@@ -10,6 +10,23 @@ import Link from "next/link";
 import Features from "@/components/Features";
 import Nearby from '@/assets/nearby.png'
 import LoveAlarm from '@/assets/lovealarm.png'
+
+export const metadata = {
+  metadataBase: new URL(process.env.host),
+  title: `Love Alarm 2.0 - Ring yours crush alarm`,
+  author: 'ankit628792',
+  description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
+  openGraph: {
+    title: `Love Alarm 2.0 - Ring yours crush alarm`,
+    description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
+    url: process.env.host,
+    siteName: 'Love Alarm 2.0',
+    images: '/android-chrome-512x512.png',
+  },
+  alternates: {
+    canonical: '/'
+  },
+}
 
 const faq = [
   {
@@ -40,11 +57,12 @@ export default function Home() {
   return (
     <>
       <main className='relative flex-grow min-h-screen'>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
 
         <section className="bg-rose-500 rounded-br-full min-h-[90vh] w-full flex flex-col md:flex-row items-center justify-center md:gap-20">
           <div className="p-5 py-20 md:py-0">
-            <h1 className="text-white sm:text-3xl font-medium mb-3 text-center md:text-left">Presenting <br /><strong className="text-4xl sm:text-6xl md:text-5xl lg:text-7xl ">Love Alarm 2.0</strong></h1>
+            <p className="text-white sm:text-3xl font-medium text-center md:text-left">Presenting </p>
+            <h1 className=" mb-3 text-center md:text-left text-white"><strong className="text-4xl sm:text-6xl md:text-5xl lg:text-7xl leading-loose">Love Alarm 2.0</strong></h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-white text-center md:text-left">A new way to tell someone, you like them.</p>
             <p className="sm:text-lg text-gray-100 text-center md:text-left">Download now and get a subscription for free</p>
 
