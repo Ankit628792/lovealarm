@@ -6,6 +6,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <title>Love Alarm 2.0 - Ring yours crush alarm</title>
+        <meta name='description' content='An app that lets the user know if someone who loves them is in their vicinity.' />
         {/* <!-- Google tag (gtag.js) --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCSHVFK0DY"></script>
         <script
