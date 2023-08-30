@@ -187,7 +187,7 @@ input[type=number] {
 }
 
 .ring-spin {
-  animation: ringSpin 10s linear infinite alternate;
+  animation: ringSpin 8s linear infinite alternate;
   animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 

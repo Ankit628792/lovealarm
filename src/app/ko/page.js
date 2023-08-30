@@ -10,6 +10,7 @@ import Link from "next/link";
 import Features from "@/components/Features";
 import Nearby from '@/assets/nearby.png'
 import LoveAlarm from '@/assets/lovealarm.png'
+// description: `An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website.`,
 
 export const metadata = {
   metadataBase: new URL(process.env.host),
@@ -66,7 +67,6 @@ export default function Home() {
             <p className="text-lg sm:text-xl lg:text-2xl text-white text-center md:text-left">A new way to tell someone, you like them.</p>
             <p className="sm:text-lg text-gray-100 text-center md:text-left">Download now and get a subscription for free</p>
 
-            {/* <h1 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-4 mx-auto md:mx-0 py-2 px-4 rounded-lg">Available Soon</h1> */}
             <div className="flex items-center justify-center md:justify-start gap-4 my-6 flex-wrap transform scale-90 sm:scale-100">
               <Link href={"https://play.google.com/store/apps/details?id=com.lovealarm"}>
                 <div className="flex items-center gap-2 bg-black text-white rounded-full max-w-max py-2 px-5 cursor-pointer">
@@ -157,14 +157,13 @@ export default function Home() {
 
         <Features />
 
-        <section className='flex flex-col items-center justify-center gap-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
+        <section className='flex flex-col items-center justify-center gap-4 px-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
           <h2 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h2>
-          <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now</p>
+          <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now.</p>
 
-          {/* <h2 className="text-rose-500 bg-white max-w-max text-lg font-medium mt-8 mx-auto py-2 px-4 rounded-lg">Launching Soon</h2>
-          <h2 className="text-white text-lg font-medium">Stay Tuned ....</h2> */}
+          <p className='text-lg lg:text-xl text-gray-200 text-center -mt-2'>Download Love Alarm 2.0 App</p>
 
-          <div className='flex flex-col sm:flex-row sm:items-center gap-8 py-6 flex-wrap justify-center'>
+          <div className='flex flex-col sm:flex-row items-center gap-8 py-6 flex-wrap justify-center'>
             <Link href={"https://play.google.com/store/apps/details?id=com.lovealarm"}>
               <div className="flex items-center gap-2 bg-black text-white rounded-full max-w-max py-2 px-5 cursor-pointer">
                 <div className="relative w-7 h-7">
