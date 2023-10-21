@@ -6,8 +6,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Love Alarm 2.0 - Ring yours crush alarm</title>
-        <meta name='description' content='An app that lets the user know if someone who loves them is in their vicinity.' />
+        <title>Love Alarm 2.0 - Ring your crush's alarm</title>
+        <meta name='description' content="An app that lets the user know if someone who loves them is in their vicinity. It is now possible to ring someone's alarm in real life. When you and the other person come within 10m radius, your crush's alarm will go off. Download Love Alarm 2.0 from play store or visit the website." />
         <link rel="icon" href="/favicon.svg" />
 
         {/* <!-- Google tag (gtag.js) --> */}
