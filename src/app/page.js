@@ -157,7 +157,7 @@ export default function Home() {
 
         <Features />
 
-        <section className='flex flex-col items-center justify-center gap-4 px-4 py-20 bg-rose-500 min-h-[50vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
+        <section className='flex flex-col items-center justify-center gap-4 px-4 py-20 bg-rose-500 min-h-[70vh] w-full max-w-7xl xl:rounded-xl mx-auto'>
           <h2 className='text-4xl lg:text-5xl font-semibold text-white text-center'>Ring Your Love's Alarm</h2>
           <p className='text-xl lg:text-2xl text-gray-200 text-center'>It has to ring if you like someone in the world, we live in now.</p>
 
@@ -187,7 +187,18 @@ export default function Home() {
               <strong>Coming Soon</strong>
             </div>
           </div>
-
+        </section>
+        <section className='flex flex-col items-center justify-center gap-4 px-4 py-20 bg-sky-500 w-full max-w-7xl xl:rounded-xl mx-auto mt-20'>
+          <p className="text-2xl lg:text-3xl text-gray-50 text-center font-medium">Having trouble with background location permission?<br />Use our Special APK, just for you.</p>
+          <p className="text-gray-100 lg:text-lg max-w-2xl text-center">With this special release, you are only able to use the application in the foreground. So, no need for background location and permissions, as some older version of android are no longer supported</p>
+          <Link href={"/love-alarm-2.0-special.apk"}>
+            <div className="flex items-center gap-2 bg-white text-gray-700 rounded-full max-w-max py-2 px-5 cursor-pointer">
+              <div className="relative w-7 h-7">
+                <Image src={Android.src} blurDataURL={Android.blurDataURL} fill={true} alt="love alarm apk" />
+              </div>
+              <strong>Special APK</strong>
+            </div>
+          </Link>
         </section>
         <section className='sm:min-h-[100vh] flex flex-col items-center justify-center max-w-7xl mx-auto w-full py-20'>
           <h2 className='text-3xl sm:text-4xl xl:text-5xl text-rose-500 text-center mb-10 font-semibold'>Frequently Asked Questions</h2>
