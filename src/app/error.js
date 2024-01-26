@@ -1,4 +1,4 @@
-
+"use client"
 export const metadata = {
     title: 'Love 2.0 | Internal server error',
     author: 'ankit628792',
