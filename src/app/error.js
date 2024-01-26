@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const metadata = {
     title: 'Love 2.0 | Internal server error',
